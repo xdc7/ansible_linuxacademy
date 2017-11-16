@@ -1,6 +1,6 @@
 ---
 - hosts: appserver
-  var_files:
+  vars_files:
   - vars.yml
   tasks:
   - name: Install Lynx on App Servers
