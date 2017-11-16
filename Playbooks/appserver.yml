@@ -1,5 +1,8 @@
 ---
 - hosts: appserver
+  vars:
+    control_server: royalcyber1.mylabserver.com
+    web_root: /var/www/html/
   tasks:
   - name: Install Lynx on App Servers
     yum: pkg=lynx state=installed update_cache=true
