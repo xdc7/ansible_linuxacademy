@@ -1,7 +1,8 @@
 ---
-- hosts: appserver
-  include_vars:
-    file: vars.yml
+-name: Include vars.yml
+ include_vars:
+   file: vars.yml 
+- hosts: appserver  
   tasks:
   - name: Install Lynx on App Servers
     yum: pkg=lynx state=installed update_cache=true
