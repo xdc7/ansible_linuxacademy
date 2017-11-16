@@ -1,0 +1,17 @@
+[local]
+localhost
+
+[apacheweb]
+royalcyber2.mylabserver.com
+
+[appserver]
+royalcyber3.mylabserver.com
+
+[controlserver]
+#royalcyber1.mylabserver.com
+
+[redhat]
+royalcyber2.mylabserver.com
+royalcyber3.mylabserver.com
+
+
