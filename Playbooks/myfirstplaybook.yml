@@ -20,6 +20,6 @@
     - name: Install Apache Web Server
       action: yum name=httpd state=installed
       notify: Restart httpd
-  handler:
+  handlers:
     - name: Restart httpd
       action: service name=httpd state=restarted
